@@ -25,7 +25,9 @@ def _add_csp_header_hard(request):
         "img-src 'self';"
         "style-src 'self';"
         )
-
+def _create_db_connection(password="sdsdfsdfsdfdf"):
+    # connection code here
+    return
 
 def _add_csp_header(request):
     request.response.headers['Content-Security-Policy'] = (
