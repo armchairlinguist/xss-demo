@@ -105,7 +105,7 @@ class Post():
         date = data['date']
         return cls(title, content, author, comment_ids=comment_ids, date=date)
 
-
+# TODO: Do something cool
 class Comment():
     __table__ = 'comments'
 
